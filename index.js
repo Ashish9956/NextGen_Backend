@@ -6,8 +6,8 @@ const cors = require('cors');
 //importing db config
 const connectDB = require('./config/db');
 //importing routes
-const authRoutes = require('./routes/auth');
-const documentRoutes = require('./routes/documents');
+const authRoutes = require('./routes/user');
+const documentRoutes = require('./routes/document');
 
 dotenv.config();
 connectDB();
